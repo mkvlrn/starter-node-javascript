@@ -1,4 +1,11 @@
 {
-  "verbose": true,
-  "testEnvironment": "jest-environment-node"
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "src/**/*.js",
+    "!**/node_modules/**",
+    "!**/vendor/**"
+  ],
+  "coverageDirectory": "tests/coverage",
+  "testEnvironment": "jest-environment-node",
+  "verbose": true
 }
