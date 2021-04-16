@@ -2,8 +2,7 @@
   "collectCoverage": true,
   "collectCoverageFrom": [
     "src/**/*.js",
-    "!**/node_modules/**",
-    "!**/vendor/**"
+    "!src/index.js"
   ],
   "coverageDirectory": "tests/coverage",
   "testEnvironment": "jest-environment-node",
