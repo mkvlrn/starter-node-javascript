@@ -44,14 +44,16 @@
     "testEnvironment": "jest-environment-node",
     "verbose": true
   },
-  "presets": [
-    [
-      "@babel/preset-env",
-      {
-        "targets": {
-          "esmodules": true
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "esmodules": true
+          }
         }
-      }
+      ]
     ]
-  ]
+  }
 }
